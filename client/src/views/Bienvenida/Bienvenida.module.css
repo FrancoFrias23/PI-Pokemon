@@ -1,0 +1,48 @@
+.fondo{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    /* background:url("https://w0.peakpx.com/wallpaper/580/783/HD-wallpaper-pokemon-pokeball-pokemon-poke-balls-%E2%80%A2-for-you-abstract-pokeball.jpg") no-repeat center center fixed; */
+    background: url("https://www.kotaku.com.au/wp-content/uploads/sites/3/2013/09/06/18z8e43dp0082gif.gif?quality=80&resize=720,405");
+    display: table;
+    -webkit-background-size: cover;
+    /* -moz-background-size:;
+    -ms-background-size: cover;
+    -o-background-size: cover; */
+    background-size:100% 100%;
+    height: 100vh;
+}
+.inner{
+width: 100%;
+vertical-align:middle;
+display: table-cell;
+}
+.content{ 
+    position: relative;
+    font-family: 'Domine';
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+.content h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 700%;
+    font-style:italic;
+    -webkit-text-stroke: 4px white;
+    text-shadow: 10px 10px 10px rgb(240, 243, 240);
+    color:gray;
+    
+}
+.content a{
+    border: 4px solid rgb(246, 246, 246);
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(0, 8, 2) ;
+    color: aliceblue;
+    }
+.content a:hover{
+    color: rgb(38, 255, 0);
+}

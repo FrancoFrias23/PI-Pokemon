@@ -1,0 +1,52 @@
+
+select {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: 0;
+    background: #2e50cc;
+    color: #fff;
+    /* border: 1px solid crimson; */
+    padding: 4px;
+    border-radius: 9px;
+  }
+  .in{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #226aac;
+    color: #fff;
+    border: 2px solid blue;
+  }
+  label{
+    font-family: cursive, sans-serif;
+    color:#f9f9f9
+  }
+  .create{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: black;
+    border: 2px solid rgb(123, 123, 139);
+    border-radius: 10px;
+  }
+  p{
+    color:red;
+    font-size: 12px
+  }
+  .submit{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: cursive, sans-serif;
+    font-size: larger;
+    outline: 0;
+    background: #226aac;
+    color: #fff;
+    border: 3px solid crimson;
+    padding: 4px;
+    border-radius: 9px;
+  }
+  .sh1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1px white;
+  }

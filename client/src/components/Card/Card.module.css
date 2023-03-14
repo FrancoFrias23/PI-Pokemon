@@ -1,0 +1,42 @@
+.card{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8);
+    /* background-image:url("../../images/Card.png"); */
+    /* background-color: #d6d345; */
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow:1px 4px 15px 0 black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.75s;
+    display: inline-block;
+  padding:10px;
+  box-sizing: border-box;
+   text-decoration: none;
+   font-size:small;
+}
+img{
+    position: relative;
+ object-fit: scale-down;
+ width:100%;
+  height:100%;
+  top: -60px;;
+
+}
+/* .card img:hover{
+  transform: scale(1.2);
+} */
+.card  a{
+  text-decoration: none;
+  font-size: 14px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  /* text-shadow: 2px 2px 1px rgb(214, 214, 214); */
+}
+.card a:hover{
+  transform: scale(1.2);
+  text-shadow: 2px 2px 1px rgb(214, 214, 214);
+}
+

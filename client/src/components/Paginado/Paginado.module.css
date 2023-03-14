@@ -1,0 +1,41 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+.container{
+    
+    width: 50px;
+}
+.pagination{
+    
+    position:absolute;
+    left:7%;
+    right: 15%;
+    top: 130px;
+    margin-left:auto;
+    margin-right: auto;
+    width:25%;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction:row;
+    border-radius: 10px;
+    flex-wrap:wrap;
+    gap: 3em;
+    
+    
+}
+.buttons{
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #ffe250;
+    border-radius: 20%;
+    border: 1px solid black;
+}
+.buttons:hover{
+    background-color: #140e01;
+    color: black;
+}
+    li{
+    float: left;
+}

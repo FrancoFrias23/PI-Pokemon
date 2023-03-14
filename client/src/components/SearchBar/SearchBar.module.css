@@ -1,0 +1,28 @@
+
+.search{
+    position :absolute;
+    top: 30px;;
+    right: 12%;
+}
+.search input{
+    padding: 4px;
+  color:black;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px black;
+  background-color: #c7def3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+::placeholder{
+    color: grey
+}
+.search button{
+    margin-bottom: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: 0;
+    background: #226aac;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 3px;
+    font-size: medium;
+    border-radius: 9px;
+}

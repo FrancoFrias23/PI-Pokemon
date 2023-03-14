@@ -1,0 +1,11 @@
+.container{
+    /* background-color: #728e65; */
+    background-image: url("https://i.blogs.es/3a5e33/pokemon/1366_2000.webp");
+}
+.loading{
+    position: absolute;
+    font-size: xx-large;
+    top: 250px;
+    width: 100%;
+    text-align: center;
+}

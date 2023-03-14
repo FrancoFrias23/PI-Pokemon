@@ -1,0 +1,46 @@
+.container{
+    position: relative;
+    background-color: #d6d345;
+    
+}
+.selecttype{
+    background-color: #226aac;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.selectorigin{
+    background-color: #226aac;
+    position: absolute;
+    left: 130px;
+    top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.selectorder{
+    background-color: #226aac;
+    position: absolute;
+    left: 260px;
+    top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+        position:absolute;
+        right: 50px;
+        top: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        outline: 0;
+        background: #226aac;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 9px;
+      
+}
+.button:hover{
+    background-color: rgb(255, 235, 10);
+    color: white
+}

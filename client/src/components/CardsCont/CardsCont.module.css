@@ -1,0 +1,23 @@
+.algo{
+    border: 1px solid black;
+    height: 1250px;
+}
+.container{
+    box-shadow:1px 4px 15px 0 black;
+    top:200px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    /* bottom: 8px; */
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    /* border-radius: 10px; */
+    flex-wrap:wrap;
+    gap: 3em;
+    background-size: cover;
+    background-color: #226aac;
+    
+}
+
